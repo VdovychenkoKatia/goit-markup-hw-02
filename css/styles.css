@@ -61,6 +61,10 @@ body {
 }
 
 /*contacts*/
+.contacts {
+    font-style: normal;
+}
+
 .contact-link {
     font-weight: 400;
     font-size: 16px;
@@ -89,6 +93,8 @@ body {
 }
 
 .btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -124,7 +130,7 @@ body {
 .section-tittle {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
