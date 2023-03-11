@@ -1,7 +1,17 @@
+:root {
+    --basic-logo-color: #4d5ae5;
+    --title-color: #2e2f42;
+    --main-color-text: #434455;
+    --white-color: #ffffff;
+    --hover-color: #404bbf;
+    --f-color-logo: #f4f4fd;
+    --footer-color-text: #e7e9fc;
+    --background-color: #f4f4fd;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455;
+    color: var(--main-color-text);
 }
 
 .visually-hidden{
@@ -31,19 +41,17 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: var(--basic-logo-color);
 }
 
 .studio-header {
-    color: #2E2F42;
+    color: var(--title-color);
 }
 
 .studio-footer {
-    color: #F4F4FD;
+    color: var(--f-color-logo);
 }
 
 /*menu*/
@@ -52,12 +60,12 @@ body {
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.02em;
-    color: #2E2F42; 
+    color: var(--title-color); 
 }
 
 .menu-link:focus,
 .menu-link:hover  {
-    color: #404BBF;
+    color: var(--hover-color);
 }
 
 /*contacts*/
@@ -70,17 +78,17 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--main-color-text);
 }
 
 .contact-link:focus,
 .contact-link:hover {
-    color: #404BBF;
+    color: var(--hover-color);
 }
 
 /*hero*/
 .hero-bg {
-    background-color: #2E2F42
+    background-color: var(--title-color);
 }
 
 .hero {
@@ -89,9 +97,10 @@ body {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
+/*button*/
 .btn {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -102,22 +111,23 @@ body {
     align-items: center;
     letter-spacing: 0.04em;
     cursor: pointer;
-    background-color:#4D5AE5;
-    color: #FFFFFF;
+    background-color: var(--basic-logo-color);
+    color: var(--white-color);
 }
 
 .btn:focus,
 .btn:hover {
-    background-color: #404BBF;
-    color: #FFFFFF;
+    background-color: var(--hover-color);
+    color: var(--white-color);
 }
 
+/*text*/
 .min-tittle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 
 .text-about {
@@ -134,11 +144,11 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 
 .light-bg {
-    background: #F4F4FD;
+    background: var(--f-color-logo);
 }
 
 .name {
@@ -147,7 +157,7 @@ body {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-color);
 }
 
 .work {
@@ -156,12 +166,12 @@ body {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--main-color-text);
 }
 
 /*footer*/
 .footer {
-    background: #2E2F42;
+    background: var(--title-color);
 }
 
 .footer-text {
@@ -169,5 +179,5 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color: var(--footer-color-text);
 }
